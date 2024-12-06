@@ -4,7 +4,7 @@ import { Injectable } from '@nestjs/common';
 export class UsersService {
 
   getUsers() {
-    return ['user1', 'user2', 'user3'];
+    return ['usuarioVillding-1', ' usuarioVillding-2', ' usuarioVillding-3'];
   }
 
   postUser(name: string) {
