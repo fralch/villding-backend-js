@@ -8,6 +8,6 @@ export class UsersService {
   }
 
   postUser(name: string) {
-    return `user ${name} created`;
+    return `Hola usuario ${name} de villding!`;
   }
 }
